@@ -13,18 +13,23 @@ var stringTeachers = "4"
 var numberDogs = 0
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
+ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
 
+console.log(numberTeachers === stringTeachers);
+
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+
+console.log(numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
 
+console.log(numberStudents >= 21);
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -37,11 +42,14 @@ var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
 
+// In this line of Code, it is testing whether or not the variable  of friends is greater than the variable of siblings. Based off the numbers given this code should log true.
+
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
 
+// In this line of code, it is testing whether or not the variable of attendees are not strictly equal to the variable of meals. Based off the numbers assigned to the variables. This is true.
 
 // #-------------------
 // PART 3: Logical Operators
@@ -64,9 +72,15 @@ var age = 1;
 // YOU DO:
 // Determine if the dog loves to play and loves treats
 
+console.log(lovesToPlay && lovesTreats);
+
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
+
+console.log(lovesToPlay || lovesDogPark)
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
 // HINT: Use the age variable and assume that a puppy is less than 2 years old
+
+console.log(lovesToPlay && age < 2);
