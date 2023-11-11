@@ -77,7 +77,7 @@ console.log(lovesToPlay && lovesTreats);
 // YOU DO:
 // Determine if the dog loves to play or loves the dog park
 
-console.log(lovesToPlay || lovesDogPark)
+console.log(lovesToPlay || lovesDogPark);
 
 // YOU DO:
 // Determine if the dog loves to play and is a puppy
